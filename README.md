@@ -11,6 +11,6 @@ https://www.twilio.com/ (To get a number, costs 2$ per month)
     "api-key": <openweathermap api-key>,
     "twilio-sid": <twilio account id>,
     "twilio-secret": <twilio secret key>,
-    "number": <twilio number>
+    "number": <your number>
 }
 ```
