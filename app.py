@@ -56,7 +56,8 @@ def send_report():
 # Time stuff when this will be executed
 cur_time = datetime.today()
 
-send_time = cur_time.replace(day=cur_time.day, hour=21, minute= 7, second=0, microsecond=0)
+# Will execute the next morning at 7am.
+send_time = cur_time.replace(day=cur_time.day + 1, hour=7, minute=0, second=0, microsecond=0)
 
 delta_t = send_time - cur_time
 
