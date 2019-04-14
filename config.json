@@ -1,3 +1,6 @@
 {
-    "api-key": ""
+    "api-key": "",
+    "twilio-sid": "",
+    "twilio-secret": "",
+    "number": ""
 }
