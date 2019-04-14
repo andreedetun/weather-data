@@ -66,5 +66,3 @@ secs = delta_t.seconds + 1
 if __name__ == '__main__':
     timer = Timer(secs, send_report)
     timer.start()
-
-# TODO: send sms api.
