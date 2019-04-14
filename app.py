@@ -20,7 +20,7 @@ with open('config.json') as config_file:
 # Format the url used for weather requests correctly.
 url = f'http://api.openweathermap.org/data/2.5/forecast?q={city}&units=metric&APPID={key}'
 
-# Send response to the api.
+# Get response fromo the api.
 r = requests.get(url)
 
 # Extract the data recieved.
